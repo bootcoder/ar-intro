@@ -1,3 +1,5 @@
+# SAMPLE CODE - Will not actually do ANYTHING.... :-)
+
 
 ### Migrations ###
 class CreatePersons < ActiveRecord::Migration
