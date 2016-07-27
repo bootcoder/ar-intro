@@ -1,3 +1,4 @@
 class DogToy < ActiveRecord::Base
-  # Remember to create a migration!
+  belongs_to :dog
+  belongs_to :toy
 end
