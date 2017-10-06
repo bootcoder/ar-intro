@@ -1,24 +1,14 @@
-## 1:1
+## 1:1 Owner -> Facebook
 
-## 1:M
+## 1:M Owners -> Dogs
 
-## M:M
-
-
+## M:M Dogs <-> Toys
 
 
-artists have many songs
-song belongs to an artist
+Tables:
 
-genre has many songs
-song belongs to genre
-
-
-user has many playlist_users
-user has many playlists through playlist users
-
-playlist has many playlist_users
-playlist has many users through playlist_users
-
-
-
+Owners
+Facebooks
+Dogs
+Toys
+DogToys
